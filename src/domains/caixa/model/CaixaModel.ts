@@ -7,4 +7,9 @@ interface CedulasSaida {
     cedulas: Map<string,Number>;
 }
 
-export {ValorEntrada, CedulasSaida}
+interface Caixa {
+    val: number
+    dinheiro: Map<string,Number>;
+}
+
+export {ValorEntrada, CedulasSaida, Caixa}
